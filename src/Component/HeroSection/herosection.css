@@ -1,0 +1,82 @@
+.table-main-div{
+    /* max-height: calc(100vh - 490px) !important;
+    overflow-y: auto !important; */
+    border: 1px slid black !important;
+    /* background-color: red; */
+    
+}
+.heughtset
+{
+    overflow: scroll !important;
+    height: 20vh !important;
+    overflow-x: hidden !important;
+}
+
+.vertical-scroll::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+   
+    
+}
+.tabel-row{
+    transition: transform 1s;
+}
+.tabel-row:hover{
+    background-color: gainsboro;
+    transition: all 1s; 
+    font-size: 24px; 
+    font-weight: 600; 
+    color: green;
+}
+
+vertical-scroll::-webkit-scrollbar-thumb{
+
+  background: rgb(227, 232, 227);
+  border-radius: 100vw;
+}
+.vertical-scroll::-webkit-scrollbar-track{
+  background: rgb(89, 91, 89);
+  border-radius: 100vw;
+  margin-block:10px;
+
+} 
+
+@media(max-width:800px){
+    .table-main-div{
+        /* max-height: calc(100vh - 120px) !important;
+        overflow-y: auto !important; */
+        border: 1px slid black !important;
+        /* background-color: red; */
+        
+    }
+}
+
+@media(max-width:600px){
+    .table-main-div{
+        /* max-height: calc(100vh - 430px) !important;
+        overflow-y: auto !important; */
+        border: 1px slid black !important;
+        /* background-color: red; */
+        
+    }
+}
+
+@media(max-width:500px){
+    .table-main-div{
+        /* max-height: calc(100vh - 380px) !important;
+        overflow-y: auto !important; */
+        border: 1px slid black !important;
+        /* background-color: red; */
+        
+    }
+}
+
+@media(max-width:400px){
+    .table-main-div{
+        /* max-height: calc(100vh - 310px) !important;
+        overflow-y: auto !important; */
+        border: 1px slid black !important;
+        /* background-color: red; */
+        
+    }
+}

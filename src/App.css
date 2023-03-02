@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,13 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.App{
+  /* max-height: calc(100vh - 160px); */
+  /* overflow-y: hidden; */
+ /* height: calc(100vh - 160px); */
+  
 }
+
+ 
